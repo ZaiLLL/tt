@@ -1,9 +1,9 @@
 $(document).ready(function() {
     alert("LOAD !");
 });
+const elements = document.getElementsByName("x_studio_famille_2");
 
-$("#o_field_input_2388").change ( function () {
-    var targID  = $(this).val ();
-    alert("Val" + targID);
-  });
-  
+elements.addEventListener('change', (event) => {
+  alert('Val' + ${event.target.value};
+  alert('Val' + event.target.value;
+});

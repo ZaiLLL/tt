@@ -2,7 +2,7 @@ $(document).ready(function() {
     alert("LOAD !");
 });
 
-$("#o_input o_field_widget").change ( function () {
+$("#o_field_input_2388").change ( function () {
     var targID  = $(this).val ();
     alert("Val" + targID);
   });

@@ -3,6 +3,6 @@ $(document).ready(function() {
 });
 const elements = document.getElementsByName("x_studio_famille_2");
 
-elements.addEventListener('change', (event) => {
+elements[0].addEventListener('change', (event) => {
   alert('Val' + event.target.value);
 });
